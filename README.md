@@ -5,6 +5,9 @@ AI personas simulate real user behavior to test the Coterie website (https://www
 ## Setup & Run
 
 ```bash
+# Set up .env
+cp .env.example .env
+
 # Run setup script (activate bluepill conda env + install dependencies)
 bash setup.sh
 
