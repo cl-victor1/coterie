@@ -25,3 +25,4 @@ Available personas: `sarah_kim`, `maya_rodriguez`, `lauren_peterson`, `jasmine_l
 - **Pre-test login & popup handling**: The system logs in and closes popups before testing to simulate authentic human user paths, as real users wouldn't trigger anti-bot systems.
 - **Behavioral variations**: Parameters like `max_scrolls_per_page` may cause different persona behaviors across runs.
 - **Demo variability**: Each run produces slightly different paths and decisions—demo outputs are reference only.
+- **Large file exclusion**: The `review_embeddings` JSON file exceeded GitHub’s 100MB limit and it now exists only locally.
