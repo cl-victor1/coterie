@@ -1,0 +1,636 @@
+{
+  "methodology": "Multi-criteria evaluation: Criterion 1 (40%), Criterion 2 (40%), Criterion 3 (20%)",
+  "total_personas_evaluated": 5,
+  "most_realistic": "Lauren Peterson",
+  "least_realistic": "Jasmine Lee",
+  "comparison_table": {
+    "Lauren Peterson": {
+      "rank": 1,
+      "criterion1_score": 0.7669,
+      "criterion2_score": 0.8461,
+      "criterion3_score": 0.7364,
+      "overall_score": 0.7925,
+      "criterion1_weighted": 0.3067,
+      "criterion2_weighted": 0.3384,
+      "criterion3_weighted": 0.1473
+    },
+    "Priya Desai": {
+      "rank": 2,
+      "criterion1_score": 0.759,
+      "criterion2_score": 0.8357,
+      "criterion3_score": 0.6906,
+      "overall_score": 0.776,
+      "criterion1_weighted": 0.3036,
+      "criterion2_weighted": 0.3343,
+      "criterion3_weighted": 0.1381
+    },
+    "Sarah Kim": {
+      "rank": 3,
+      "criterion1_score": 0.7554,
+      "criterion2_score": 0.8365,
+      "criterion3_score": 0.6952,
+      "overall_score": 0.7758,
+      "criterion1_weighted": 0.3021,
+      "criterion2_weighted": 0.3346,
+      "criterion3_weighted": 0.139
+    },
+    "Maya Rodriguez": {
+      "rank": 4,
+      "criterion1_score": 0.75,
+      "criterion2_score": 0.8184,
+      "criterion3_score": 0.6976,
+      "overall_score": 0.7669,
+      "criterion1_weighted": 0.3,
+      "criterion2_weighted": 0.3274,
+      "criterion3_weighted": 0.1395
+    },
+    "Jasmine Lee": {
+      "rank": 5,
+      "criterion1_score": 0.7511,
+      "criterion2_score": 0.8,
+      "criterion3_score": 0.6898,
+      "overall_score": 0.7584,
+      "criterion1_weighted": 0.3004,
+      "criterion2_weighted": 0.32,
+      "criterion3_weighted": 0.138
+    }
+  },
+  "detailed_scores": [
+    {
+      "persona_key": "lauren_peterson",
+      "persona_name": "Lauren Peterson",
+      "criterion1_score": 0.7668570108264594,
+      "criterion1_weighted": 0.30674280433058376,
+      "criterion2_score": 0.8460922321772316,
+      "criterion2_weighted": 0.3384368928708927,
+      "criterion3_score": 0.7363544258299355,
+      "criterion3_weighted": 0.1472708851659871,
+      "weighted_score": 0.7924505823674636,
+      "full_criterion1_result": {
+        "persona_key": "lauren_peterson",
+        "score": 0.7668570108264594,
+        "weighted_score": 0.30674280433058376,
+        "matched_reviews_count": 100,
+        "avg_persona_to_reviews_similarity": 0.7137065702214385,
+        "avg_journey_to_reviews_similarity": 0.7668570108264594,
+        "top_10_matched_review_ids": [
+          711527633,
+          711527983,
+          711529453,
+          711532004,
+          711528419,
+          711524763,
+          711531152,
+          711526880,
+          711527261,
+          711526676
+        ],
+        "top_10_matched_reviews_metadata": [
+          {
+            "id": 711527633,
+            "title": "New mama here. Before having",
+            "score": 5,
+            "similarity": 0.747196869736951
+          },
+          {
+            "id": 711527983,
+            "title": "Pros: Feels dryer to my",
+            "score": 4,
+            "similarity": 0.7380936112972281
+          },
+          {
+            "id": 711529453,
+            "title": "My baby absolutely loves these!",
+            "score": 5,
+            "similarity": 0.7312246626817595
+          },
+          {
+            "id": 711532004,
+            "title": "These diapers are pricey, but",
+            "score": 4,
+            "similarity": 0.726556511973469
+          },
+          {
+            "id": 711528419,
+            "title": "Purchased for my granddaugther. These",
+            "score": 5,
+            "similarity": 0.7252474724374118
+          },
+          {
+            "id": 711524763,
+            "title": "Happy Mama, sleeping baby",
+            "score": 5,
+            "similarity": 0.7251304385340395
+          },
+          {
+            "id": 711531152,
+            "title": "Incredible. My 13 mo old",
+            "score": 5,
+            "similarity": 0.724437368966723
+          },
+          {
+            "id": 711526880,
+            "title": "- Tried diapers from three",
+            "score": 4,
+            "similarity": 0.7231248499517706
+          },
+          {
+            "id": 711527261,
+            "title": "I refer them to everyone",
+            "score": 5,
+            "similarity": 0.7223061996642276
+          },
+          {
+            "id": 711526676,
+            "title": "Two words: MORE SLEEP",
+            "score": 5,
+            "similarity": 0.7222679370648792
+          }
+        ]
+      },
+      "full_criterion2_result": {
+        "persona_key": "lauren_peterson",
+        "score": 0.8460922321772316,
+        "weighted_score": 0.3384368928708927,
+        "method": "persona_journey_embedding_similarity"
+      },
+      "full_criterion3_result": {
+        "persona_key": "lauren_peterson",
+        "score": 0.7363544258299355,
+        "weighted_score": 0.1472708851659871,
+        "best_cluster_id": 0,
+        "all_cluster_similarities": {
+          "0": 0.7363544258299355,
+          "2": 0.7291118670606287,
+          "1": 0.6978228863047196
+        },
+        "num_clusters_compared": 3
+      },
+      "rank": 1
+    },
+    {
+      "persona_key": "priya_desai",
+      "persona_name": "Priya Desai",
+      "criterion1_score": 0.7590112551919566,
+      "criterion1_weighted": 0.30360450207678263,
+      "criterion2_score": 0.8356606312095214,
+      "criterion2_weighted": 0.3342642524838086,
+      "criterion3_score": 0.6905973015632542,
+      "criterion3_weighted": 0.13811946031265085,
+      "weighted_score": 0.7759882148732421,
+      "full_criterion1_result": {
+        "persona_key": "priya_desai",
+        "score": 0.7590112551919566,
+        "weighted_score": 0.30360450207678263,
+        "matched_reviews_count": 100,
+        "avg_persona_to_reviews_similarity": 0.6572675135168063,
+        "avg_journey_to_reviews_similarity": 0.7590112551919566,
+        "top_10_matched_review_ids": [
+          711527633,
+          711530905,
+          711533170,
+          762198646,
+          711524028,
+          711527983,
+          711532506,
+          711526880,
+          732878195,
+          711523032
+        ],
+        "top_10_matched_reviews_metadata": [
+          {
+            "id": 711527633,
+            "title": "New mama here. Before having",
+            "score": 5,
+            "similarity": 0.6937134599106989
+          },
+          {
+            "id": 711530905,
+            "title": "- Soft material in line",
+            "score": 4,
+            "similarity": 0.6905579442325473
+          },
+          {
+            "id": 711533170,
+            "title": "easy ordering/refill - better quality",
+            "score": 5,
+            "similarity": 0.6774970315019382
+          },
+          {
+            "id": 762198646,
+            "title": "First time mama here. We",
+            "score": 5,
+            "similarity": 0.673301139250471
+          },
+          {
+            "id": 711524028,
+            "title": "Honestly, I was heavily targeted",
+            "score": 5,
+            "similarity": 0.6730135299967638
+          },
+          {
+            "id": 711527983,
+            "title": "Pros: Feels dryer to my",
+            "score": 4,
+            "similarity": 0.6728614759999804
+          },
+          {
+            "id": 711532506,
+            "title": "Order via text is incredibly",
+            "score": 5,
+            "similarity": 0.672514086694441
+          },
+          {
+            "id": 711526880,
+            "title": "- Tried diapers from three",
+            "score": 4,
+            "similarity": 0.6715356322950049
+          },
+          {
+            "id": 732878195,
+            "title": "• Convenience • Quality",
+            "score": 5,
+            "similarity": 0.6706890053643234
+          },
+          {
+            "id": 711523032,
+            "title": "Great absorbency. I know my",
+            "score": 5,
+            "similarity": 0.6688862396838052
+          }
+        ]
+      },
+      "full_criterion2_result": {
+        "persona_key": "priya_desai",
+        "score": 0.8356606312095214,
+        "weighted_score": 0.3342642524838086,
+        "method": "persona_journey_embedding_similarity"
+      },
+      "full_criterion3_result": {
+        "persona_key": "priya_desai",
+        "score": 0.6905973015632542,
+        "weighted_score": 0.13811946031265085,
+        "best_cluster_id": 0,
+        "all_cluster_similarities": {
+          "0": 0.6905973015632542,
+          "2": 0.6866602367000367,
+          "1": 0.6538577259056824
+        },
+        "num_clusters_compared": 3
+      },
+      "rank": 2
+    },
+    {
+      "persona_key": "sarah_kim",
+      "persona_name": "Sarah Kim",
+      "criterion1_score": 0.7553638360634569,
+      "criterion1_weighted": 0.3021455344253828,
+      "criterion2_score": 0.8365193727579846,
+      "criterion2_weighted": 0.33460774910319385,
+      "criterion3_score": 0.6952332010877417,
+      "criterion3_weighted": 0.13904664021754834,
+      "weighted_score": 0.7757999237461249,
+      "full_criterion1_result": {
+        "persona_key": "sarah_kim",
+        "score": 0.7553638360634569,
+        "weighted_score": 0.3021455344253828,
+        "matched_reviews_count": 100,
+        "avg_persona_to_reviews_similarity": 0.6803995268167253,
+        "avg_journey_to_reviews_similarity": 0.7553638360634569,
+        "top_10_matched_review_ids": [
+          711527633,
+          711530905,
+          762198646,
+          711525665,
+          711533170,
+          751324772,
+          711525380,
+          711529511,
+          711524028,
+          763284713
+        ],
+        "top_10_matched_reviews_metadata": [
+          {
+            "id": 711527633,
+            "title": "New mama here. Before having",
+            "score": 5,
+            "similarity": 0.7207925733437806
+          },
+          {
+            "id": 711530905,
+            "title": "- Soft material in line",
+            "score": 4,
+            "similarity": 0.7206753015295517
+          },
+          {
+            "id": 762198646,
+            "title": "First time mama here. We",
+            "score": 5,
+            "similarity": 0.7055076486203843
+          },
+          {
+            "id": 711525665,
+            "title": "I have always been a",
+            "score": 5,
+            "similarity": 0.7019149793389554
+          },
+          {
+            "id": 711533170,
+            "title": "easy ordering/refill - better quality",
+            "score": 5,
+            "similarity": 0.7009784228212133
+          },
+          {
+            "id": 751324772,
+            "title": "These diapers are fantastic! If",
+            "score": 5,
+            "similarity": 0.6980274892899484
+          },
+          {
+            "id": 711525380,
+            "title": "The subscription feature is incredibly",
+            "score": 5,
+            "similarity": 0.6964701404977945
+          },
+          {
+            "id": 711529511,
+            "title": "It&#x27;s quality, but the subscription",
+            "score": 3,
+            "similarity": 0.6943675652342609
+          },
+          {
+            "id": 711524028,
+            "title": "Honestly, I was heavily targeted",
+            "score": 5,
+            "similarity": 0.6929453804088441
+          },
+          {
+            "id": 763284713,
+            "title": "My daughter loves these diapers",
+            "score": 5,
+            "similarity": 0.6924286820773132
+          }
+        ]
+      },
+      "full_criterion2_result": {
+        "persona_key": "sarah_kim",
+        "score": 0.8365193727579846,
+        "weighted_score": 0.33460774910319385,
+        "method": "persona_journey_embedding_similarity"
+      },
+      "full_criterion3_result": {
+        "persona_key": "sarah_kim",
+        "score": 0.6952332010877417,
+        "weighted_score": 0.13904664021754834,
+        "best_cluster_id": 0,
+        "all_cluster_similarities": {
+          "0": 0.6952332010877417,
+          "2": 0.6890873915704195,
+          "1": 0.6533221334997207
+        },
+        "num_clusters_compared": 3
+      },
+      "rank": 3
+    },
+    {
+      "persona_key": "maya_rodriguez",
+      "persona_name": "Maya Rodriguez",
+      "criterion1_score": 0.7499582252418628,
+      "criterion1_weighted": 0.2999832900967451,
+      "criterion2_score": 0.8183780801918727,
+      "criterion2_weighted": 0.3273512320767491,
+      "criterion3_score": 0.6976231521606798,
+      "criterion3_weighted": 0.13952463043213598,
+      "weighted_score": 0.7668591526056303,
+      "full_criterion1_result": {
+        "persona_key": "maya_rodriguez",
+        "score": 0.7499582252418628,
+        "weighted_score": 0.2999832900967451,
+        "matched_reviews_count": 100,
+        "avg_persona_to_reviews_similarity": 0.6689688957845048,
+        "avg_journey_to_reviews_similarity": 0.7499582252418628,
+        "top_10_matched_review_ids": [
+          711527633,
+          711522979,
+          711530872,
+          711532218,
+          711532534,
+          711525665,
+          711523915,
+          711530061,
+          763083065,
+          711525454
+        ],
+        "top_10_matched_reviews_metadata": [
+          {
+            "id": 711527633,
+            "title": "New mama here. Before having",
+            "score": 5,
+            "similarity": 0.7081304402582047
+          },
+          {
+            "id": 711522979,
+            "title": "These diapers are amazing. I&#x27;m",
+            "score": 5,
+            "similarity": 0.6974600373524886
+          },
+          {
+            "id": 711530872,
+            "title": "My daughter in love researched",
+            "score": 5,
+            "similarity": 0.6934265903891885
+          },
+          {
+            "id": 711532218,
+            "title": "These diapers keep my daughter",
+            "score": 5,
+            "similarity": 0.6882649002285071
+          },
+          {
+            "id": 711532534,
+            "title": "Clean ingredients, no chemical smells,",
+            "score": 5,
+            "similarity": 0.6866168836998815
+          },
+          {
+            "id": 711525665,
+            "title": "I have always been a",
+            "score": 5,
+            "similarity": 0.6835960800008776
+          },
+          {
+            "id": 711523915,
+            "title": "I happened to see an",
+            "score": 5,
+            "similarity": 0.6831509928789379
+          },
+          {
+            "id": 711530061,
+            "title": "My son has super sensitive",
+            "score": 5,
+            "similarity": 0.6817916567502564
+          },
+          {
+            "id": 763083065,
+            "title": "Absolutely in love with this",
+            "score": 5,
+            "similarity": 0.681464425121495
+          },
+          {
+            "id": 711525454,
+            "title": "I LOVE these diapers. I",
+            "score": 5,
+            "similarity": 0.6814310143244948
+          }
+        ]
+      },
+      "full_criterion2_result": {
+        "persona_key": "maya_rodriguez",
+        "score": 0.8183780801918727,
+        "weighted_score": 0.3273512320767491,
+        "method": "persona_journey_embedding_similarity"
+      },
+      "full_criterion3_result": {
+        "persona_key": "maya_rodriguez",
+        "score": 0.6976231521606798,
+        "weighted_score": 0.13952463043213598,
+        "best_cluster_id": 0,
+        "all_cluster_similarities": {
+          "0": 0.6976231521606798,
+          "2": 0.6914959076058059,
+          "1": 0.6646695789933088
+        },
+        "num_clusters_compared": 3
+      },
+      "rank": 4
+    },
+    {
+      "persona_key": "jasmine_lee",
+      "persona_name": "Jasmine Lee",
+      "criterion1_score": 0.7510788941224151,
+      "criterion1_weighted": 0.30043155764896606,
+      "criterion2_score": 0.7999776292712704,
+      "criterion2_weighted": 0.31999105170850817,
+      "criterion3_score": 0.6897826730817094,
+      "criterion3_weighted": 0.13795653461634189,
+      "weighted_score": 0.7583791439738161,
+      "full_criterion1_result": {
+        "persona_key": "jasmine_lee",
+        "score": 0.7510788941224151,
+        "weighted_score": 0.30043155764896606,
+        "matched_reviews_count": 100,
+        "avg_persona_to_reviews_similarity": 0.6360673407432781,
+        "avg_journey_to_reviews_similarity": 0.7510788941224151,
+        "top_10_matched_review_ids": [
+          711527633,
+          711524028,
+          711522979,
+          711525665,
+          711526880,
+          771230937,
+          718852916,
+          711527415,
+          711529515,
+          711528843
+        ],
+        "top_10_matched_reviews_metadata": [
+          {
+            "id": 711527633,
+            "title": "New mama here. Before having",
+            "score": 5,
+            "similarity": 0.6773260568560366
+          },
+          {
+            "id": 711524028,
+            "title": "Honestly, I was heavily targeted",
+            "score": 5,
+            "similarity": 0.6581117992140552
+          },
+          {
+            "id": 711522979,
+            "title": "These diapers are amazing. I&#x27;m",
+            "score": 5,
+            "similarity": 0.6571092301285022
+          },
+          {
+            "id": 711525665,
+            "title": "I have always been a",
+            "score": 5,
+            "similarity": 0.6558771704590235
+          },
+          {
+            "id": 711526880,
+            "title": "- Tried diapers from three",
+            "score": 4,
+            "similarity": 0.6550279302778813
+          },
+          {
+            "id": 771230937,
+            "title": "I was so skeptical about",
+            "score": 5,
+            "similarity": 0.6517351269403042
+          },
+          {
+            "id": 718852916,
+            "title": "Sometimes you read reviews where",
+            "score": 2,
+            "similarity": 0.6500363366956852
+          },
+          {
+            "id": 711527415,
+            "title": "The only diaper we buy!",
+            "score": 5,
+            "similarity": 0.6492800003567116
+          },
+          {
+            "id": 711529515,
+            "title": "Obsessed and highly recommend to",
+            "score": 5,
+            "similarity": 0.6482150966569693
+          },
+          {
+            "id": 711528843,
+            "title": "Amazing, baby loves them. We",
+            "score": 5,
+            "similarity": 0.6477286470582724
+          }
+        ]
+      },
+      "full_criterion2_result": {
+        "persona_key": "jasmine_lee",
+        "score": 0.7999776292712704,
+        "weighted_score": 0.31999105170850817,
+        "method": "persona_journey_embedding_similarity"
+      },
+      "full_criterion3_result": {
+        "persona_key": "jasmine_lee",
+        "score": 0.6897826730817094,
+        "weighted_score": 0.13795653461634189,
+        "best_cluster_id": 2,
+        "all_cluster_similarities": {
+          "0": 0.6704347279143309,
+          "2": 0.6897826730817094,
+          "1": 0.650156506948805
+        },
+        "num_clusters_compared": 3
+      },
+      "rank": 5
+    }
+  ],
+  "statistics": {
+    "mean_criterion1_score": 0.7564538442892301,
+    "std_criterion1_score": 0.006116167076907392,
+    "min_criterion1_score": 0.7499582252418628,
+    "max_criterion1_score": 0.7668570108264594,
+    "mean_criterion2_score": 0.8273255891215762,
+    "std_criterion2_score": 0.016334958217028604,
+    "min_criterion2_score": 0.7999776292712704,
+    "max_criterion2_score": 0.8460922321772316,
+    "mean_criterion3_score": 0.7019181507446641,
+    "std_criterion3_score": 0.017460951009591663,
+    "min_criterion3_score": 0.6897826730817094,
+    "max_criterion3_score": 0.7363544258299355,
+    "mean_overall_score": 0.7738954035132554,
+    "std_overall_score": 0.011336356168962305
+  }
+}
